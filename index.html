@@ -29,7 +29,15 @@
                     Category
                 </a>
                 <div class="lg:flex-grow px-8 relative">
-                    <input class="bg-gray-200 focus:outline-none w-full rounded-lg py-2 px-6 tracking-tight leading-8" type="text" placeholder="Search for Home Depot, Overstock, Wal-Mart & more...">
+                    <form action="search" class="relative">
+                        <input class="bg-gray-200 focus:outline-none w-full rounded-lg text-gray-700 py-2 px-6 tracking-tight leading-8" type="text" placeholder="Search for Home Depot, Overstock, Wal-Mart & more...">
+                        <button class="absolute top-0 right-0 bottom-0 mt-1 mr-1 mb-1 px-5">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.16667 15.8333C12.8486 15.8333 15.8333 12.8486 15.8333 9.16667C15.8333 5.48477 12.8486 2.5 9.16667 2.5C5.48477 2.5 2.5 5.48477 2.5 9.16667C2.5 12.8486 5.48477 15.8333 9.16667 15.8333Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M17.5 17.5L13.875 13.875" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </form>
                 </div>
                 <div>
                     <a href="#" class="inline-block text-sm px-4 py-2 leading-none text-gray-800 hover:text-red-600">Sign In</a>
@@ -66,10 +74,16 @@
                             Stores pay Discount Koala a commission for sending you their way, and Discount Koala shares the commission with you as Cash Back.
                         </p>
                         <div class="pt-10">
-                            <input class="bg-gray-200 focus:outline-none rounded-lg py-2 px-10 tracking-tight leading-10" type="email" placeholder="Your Email Address">
-                            <button class="bg-red-600 w-auto rounded-lg text-white p-4 px-8 hover:bg-red-500">
-                                Join Now
-                            </button>
+                            <form action="search" class="relative">
+                                <!-- <input class="bg-gray-200 focus:outline-none rounded-lg py-2 px-10 tracking-tight leading-10" type="email" placeholder="Your Email Address"> -->
+                                <input class="bg-gray-200 p-4 text-gray-700 w-full focus:outline-none rounded-lg tracking-tight" type="email" placeholder="Your Email Address">
+                                <!-- <button class="bg-red-600 absolute rounded-lg text-white p-4 px-8 hover:bg-red-500" type="submit">
+                                    Join Now
+                                </button> -->
+                                <button class="bg-red-600 text-white rounded font-lg absolute top-0 right-0 bottom-0 mt-1 mr-1 mb-1 px-8 font-semibold hover:bg-red-500" type="submit">
+                                    Join Now
+                                </button>
+                            </form>
                         </div>
                     </div>
                     <div class="col-span-6 sm:col-span-4 md:col-span-3 lg:col-span-5 xl:col-span-3 ml-auto">
@@ -134,30 +148,30 @@
             </p>
             <div class="grid grid-cols-4 mt-8">
                 <div class="max-w-sm border rounded-lg mr-5 border-gray-300">
-                    <img class="w-full" src="/img/logo-1.png">
+                    <!-- <img class="w-full" src=""> -->
                 </div>
                 <div class="max-w-sm border rounded-lg mr-5 border-gray-300">
-                    <img class="w-full" src="/img/logo-2.png">
+                    <!-- <img class="w-full" src=""> -->
                 </div>
                 <div class="max-w-sm border rounded-lg mr-5 border-gray-300">
-                    <img class="w-full" src="/img/logo-3.png">
+                    <!-- <img class="w-full" src=""> -->
                 </div>
                 <div class="max-w-sm border rounded-lg border-gray-300">
-                    <img class="w-full" src="/img/logo-4.png">
+                    <!-- <img class="w-full" src=""> -->
                 </div>
             </div>
             <div class="grid grid-cols-4 mt-6">
                 <div class="max-w-sm border rounded-lg mr-5 border-gray-300">
-                    <img class="w-full" src="/img/logo-1.png">
+                    <!-- <img class="w-full" src=""> -->
                 </div>
                 <div class="max-w-sm border rounded-lg mr-5 border-gray-300">
-                    <img class="w-full" src="/img/logo-2.png">
+                    <!-- <img class="w-full" src=""> -->
                 </div>
                 <div class="max-w-sm border rounded-lg mr-5 border-gray-300">
-                    <img class="w-full" src="/img/logo-3.png">
+                    <!-- <img class="w-full" src=""> -->
                 </div>
                 <div class="max-w-sm border rounded-lg border-gray-300">
-                    <img class="w-full" src="/img/logo-4.png">
+                    <!-- <img class="w-full" src=""> -->
                 </div>
             </div>
         </div>
@@ -171,16 +185,16 @@
             </p>
             <div class="grid grid-cols-4 mt-8">
                 <div class="max-w-sm border rounded-lg mr-5 border-gray-300">
-                    <img class="w-full" src="/img/logo-1.png">
+                    <!-- <img class="w-full" src=""> -->
                 </div>
                 <div class="max-w-sm border rounded-lg mr-5 border-gray-300">
-                    <img class="w-full" src="/img/logo-2.png">
+                    <!-- <img class="w-full" src=""> -->
                 </div>
                 <div class="max-w-sm border rounded-lg mr-5 border-gray-300">
-                    <img class="w-full" src="/img/logo-3.png">
+                    <!-- <img class="w-full" src=""> -->
                 </div>
                 <div class="max-w-sm border rounded-lg border-gray-300">
-                    <img class="w-full" src="/img/logo-4.png">
+                    <!-- <img class="w-full" src=""> -->
                 </div>
             </div>
         </div>
@@ -194,16 +208,16 @@
             </p>
             <div class="grid grid-cols-4 mt-8">
                 <div class="max-w-sm border rounded-lg mr-5 border-gray-300">
-                    <img class="w-full" src="/img/logo-1.png">
+                    <!-- <img class="w-full" src=""> -->
                 </div>
                 <div class="max-w-sm border rounded-lg mr-5 border-gray-300">
-                    <img class="w-full" src="/img/logo-2.png">
+                    <!-- <img class="w-full" src=""> -->
                 </div>
                 <div class="max-w-sm border rounded-lg mr-5 border-gray-300">
-                    <img class="w-full" src="/img/logo-3.png">
+                    <!-- <img class="w-full" src=""> -->
                 </div>
                 <div class="max-w-sm border rounded-lg border-gray-300">
-                    <img class="w-full" src="/img/logo-4.png">
+                    <!-- <img class="w-full" src=""> -->
                 </div>
             </div>
         </div>
@@ -234,16 +248,16 @@
         <div class="container mx-auto">
             <div class="grid grid-cols-2 mt-8">
                 <div class="max-w-screen border rounded-lg mr-5 border-gray-300">
-                    <img class="w-full" src="/img/logo-3.png">
+                    <!-- <img class="w-full" src=""> -->
                 </div>
                 <div class="max-w-screen border rounded-lg border-gray-300">
-                    <img class="w-full" src="/img/logo-4.png">
+                    <!-- <img class="w-full" src=""> -->
                 </div>
                 <div class="mt-5 max-w-screen border rounded-lg mr-5 border-gray-300">
-                    <img class="w-full" src="/img/logo-3.png">
+                    <!-- <img class="w-full" src=""> -->
                 </div>
                 <div class="mt-5 max-w-screen border rounded-lg border-gray-300">
-                    <img class="w-full" src="/img/logo-4.png">
+                    <!-- <img class="w-full" src=""> -->
                 </div>
             </div>
             <!-- <div class="grid grid-cols-2 mt-5">
