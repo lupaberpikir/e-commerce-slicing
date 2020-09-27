@@ -29,9 +29,9 @@
                     Category
                 </a>
                 <div class="lg:flex-grow px-8 relative">
-                    <form action="search" class="relative">
+                    <form action="" class="relative">
                         <input class="bg-gray-200 focus:outline-none w-full rounded-lg text-gray-700 py-2 px-6 tracking-tight leading-8" type="text" placeholder="Search for Home Depot, Overstock, Wal-Mart & more...">
-                        <button class="absolute top-0 right-0 bottom-0 mt-1 mr-1 mb-1 px-5">
+                        <button class="focus:outline-none absolute top-0 right-0 bottom-0 mt-1 mr-1 mb-1 px-5">
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M9.16667 15.8333C12.8486 15.8333 15.8333 12.8486 15.8333 9.16667C15.8333 5.48477 12.8486 2.5 9.16667 2.5C5.48477 2.5 2.5 5.48477 2.5 9.16667C2.5 12.8486 5.48477 15.8333 9.16667 15.8333Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
                                 <path d="M17.5 17.5L13.875 13.875" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
@@ -49,7 +49,7 @@
     <nav class="flex items-center justify-between flex-wrap bg-white p-2 border border-gray-300">
         <div class="w-full flex-grow sm:flex sm:items-center">
             <div class="mx-auto">
-                <a href="#" class="inline-block text-sm px-20 leading-none text-gray-800 hover:text-red-600">HOME</a>
+                <a href="#" class="inline-block text-sm px-20 leading-none text-red-600">HOME</a>
                 <a href="#" class="inline-block text-sm px-20 leading-none text-gray-800 hover:text-red-600">FEATURE STORES</a>
                 <a href="#" class="inline-block text-sm px-20 leading-none text-gray-800 hover:text-red-600">CASHBACK STORES</a>
                 <a href="#" class="inline-block text-sm px-20 leading-none text-gray-800 hover:text-red-600">HOT DEALS</a>
@@ -63,9 +63,8 @@
             <div class="bg-red-100 rounded-lg p-10 flex flex-col justify-between leading-normal">
                 <div class="grid grid-cols-6 p-5">
                     <div class="col-span-6 sm:col-span-4 md:col-span-3 lg:col-span-5 xl:col-span-3 pt-20">
-                        <h2 class="text-4xl sm:text-5xl md:text-4xl tracking-tight leading-10 font-bold text-gray-800 sm:leading-none">Get <span class="text-red-600">up to 40%</span> Cash Back at 
-                            <br> 
-                            over 2,500 stores
+                        <h2 class="text-4xl sm:text-5xl md:text-5xl tracking-tight leading-10 font-bold text-gray-800 sm:leading-none" style="font-family: Playfair-Display;">
+                            Get <span class="text-red-600">up to 40%</span> Cash Back at over 2,500 stores
                         </h2>
                         <p class="mt-16 text-base text-red-600 font-bold sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-4 md:text-xl lg:mx-0">
                             No points. No fees. No forms
@@ -75,11 +74,7 @@
                         </p>
                         <div class="pt-10">
                             <form action="search" class="relative">
-                                <!-- <input class="bg-gray-200 focus:outline-none rounded-lg py-2 px-10 tracking-tight leading-10" type="email" placeholder="Your Email Address"> -->
                                 <input class="bg-gray-200 p-4 text-gray-700 w-full focus:outline-none rounded-lg tracking-tight" type="email" placeholder="Your Email Address">
-                                <!-- <button class="bg-red-600 absolute rounded-lg text-white p-4 px-8 hover:bg-red-500" type="submit">
-                                    Join Now
-                                </button> -->
                                 <button class="bg-red-600 text-white rounded font-lg absolute top-0 right-0 bottom-0 mt-1 mr-1 mb-1 px-8 font-semibold hover:bg-red-500" type="submit">
                                     Join Now
                                 </button>
@@ -96,7 +91,9 @@
 
     <section class="mt-20 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-35 lg:px-8 xl:mt-28">
         <div class="container mx-auto">
-            <h1 class="mt-16 text-base text-gray-800 font-bold sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-4 md:text-xl lg:mx-0">Our Popular Store</h1>
+            <h1 style="font-family: Playfair-Display;" class="mt-16 md:text-2xl text-base text-gray-800 font-bold sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-4 md:text-xl lg:mx-0">
+                Our Popular Store
+            </h1>
             <p class="text-gray-600 sm:max-w-xl md:text-l">
                 See list of our popular store
             </p>
@@ -122,8 +119,8 @@
             <div class="bg-red-100 rounded-lg p-10 flex flex-col justify-between leading-normal">
                 <div class="grid grid-cols-6 p-5">
                     <div class="col-span-6 sm:col-span-4 md:col-span-3 lg:col-span-5 xl:col-span-3">
-                        <h2 class="text-4xl sm:text-5xl md:text-4xl tracking-tight leading-10 font-bold text-gray-800 sm:leading-none">Get Discount <span class="text-red-600">up to 50%</span>  
-                            <br>
+                        <h2 style="font-family: Playfair-Display;" class="text-4xl sm:text-5xl md:text-5xl tracking-tight leading-10 font-bold text-gray-800 sm:leading-none">
+                            Get Discount <span class="text-red-600">up to 50%</span>  <br>
                             For all of Furniture
                         </h2>
                         <p class="mt-16 text-gray-600 sm:mt-6 sm:max-w-xl md:mt-6 md:text-l lg:mx-0">
@@ -142,36 +139,85 @@
 
     <section class="mt-20 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-35 lg:px-8 xl:mt-28">
         <div class="container mx-auto">
-            <h1 class="mt-16 text-base text-gray-800 font-bold sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-4 md:text-xl lg:mx-0">Top Cashback</h1>
-            <p class="text-gray-600 sm:max-w-xl md:text-l">
-                Discount up to 25%. Grab it now!
-            </p>
+            <div class="grid grid-cols-2">
+                <div class="grid grid-cols-1">
+                    <h1 style="font-family: Playfair-Display;" class="mt-16 text-base md:text-2xl text-gray-800 font-bold sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-4 md:text-xl lg:mx-0">
+                        Top Cashback
+                    </h1>
+                    <p class="text-gray-600 sm:max-w-xl md:text-l">
+                        Discount up to 25%. Grab it now!
+                    </p>
+                </div>
+                <div class="grid grid-cols-1">
+                    <a href="#" class="mt-10 ml-auto text-red-600">See More Deals</a>
+                </div>
+            </div>
             <div class="grid grid-cols-4 mt-8">
                 <div class="max-w-sm border rounded-lg mr-5 border-gray-300">
-                    <!-- <img class="w-full" src=""> -->
+                    <img class="mt-5 max-w-sm mx-auto" src="img/image-brand.png">
+                    <h2 class="mt-5 text-center font-medium">Overstock</h2>
+                    <p class="mt-2 text-center font-light">5% Cashback</p>
+                    <div class="ml-3 py-10 px-20">
+                        <a href="#" class="hover:text-red-500 underline text-red-600">CHECK NOW</a>
+                    </div>
                 </div>
                 <div class="max-w-sm border rounded-lg mr-5 border-gray-300">
-                    <!-- <img class="w-full" src=""> -->
+                    <img class="mt-5 max-w-sm mx-auto" src="img/image-brand-1.png">
+                    <h2 class="mt-5 text-center font-medium">Sam's Club</h2>
+                    <p class="mt-2 text-center font-light">5% Cashback</p>
+                    <div class="ml-3 py-10 px-20">
+                        <a href="#" class="hover:text-red-500 underline text-red-600">CHECK NOW</a>
+                    </div>
                 </div>
                 <div class="max-w-sm border rounded-lg mr-5 border-gray-300">
-                    <!-- <img class="w-full" src=""> -->
+                    <img class="mt-5 max-w-sm mx-auto" src="img/image-brand-2.png">
+                    <h2 class="mt-5 text-center font-medium">Walmart</h2>
+                    <p class="mt-2 text-center font-light">5% Cashback</p>
+                    <div class="ml-3 py-10 px-20">
+                        <a href="#" class="hover:text-red-500 underline text-red-600">CHECK NOW</a>
+                    </div>
                 </div>
                 <div class="max-w-sm border rounded-lg border-gray-300">
-                    <!-- <img class="w-full" src=""> -->
+                    <img class="mt-5 max-w-sm mx-auto" src="img/image-brand-3.png">
+                    <h2 class="mt-5 text-center font-medium">Hilton</h2>
+                    <p class="mt-2 text-center font-light">5% Cashback</p>
+                    <div class="ml-6 py-10 px-20">
+                        <a href="#" class="hover:text-red-500 underline text-red-600">CHECK NOW</a>
+                    </div>
                 </div>
             </div>
             <div class="grid grid-cols-4 mt-6">
                 <div class="max-w-sm border rounded-lg mr-5 border-gray-300">
-                    <!-- <img class="w-full" src=""> -->
+                    <img class="mt-5 max-w-sm mx-auto" src="img/image-brand-4.png">
+                    <h2 class="mt-5 text-center font-medium">Best Buy</h2>
+                    <p class="mt-2 text-center font-light">5% Cashback</p>
+                    <div class="ml-3 py-10 px-20">
+                        <a href="#" class="hover:text-red-500 underline text-red-600">CHECK NOW</a>
+                    </div>
                 </div>
                 <div class="max-w-sm border rounded-lg mr-5 border-gray-300">
-                    <!-- <img class="w-full" src=""> -->
+                    <img class="mt-5 max-w-sm mx-auto" src="img/image-brand-5.png">
+                    <h2 class="mt-5 text-center font-medium">Aquasana</h2>
+                    <p class="mt-2 text-center font-light">5% Cashback</p>
+                    <div class="ml-3 py-10 px-20">
+                        <a href="#" class="hover:text-red-500 underline text-red-600">CHECK NOW</a>
+                    </div>
                 </div>
                 <div class="max-w-sm border rounded-lg mr-5 border-gray-300">
-                    <!-- <img class="w-full" src=""> -->
+                    <img class="mt-5 max-w-sm mx-auto" src="img/image-brand-6.png">
+                    <h2 class="mt-5 text-center font-medium">Shepora</h2>
+                    <p class="mt-2 text-center font-light">5% Cashback</p>
+                    <div class="ml-3 py-10 px-20">
+                        <a href="#" class="hover:text-red-500 underline text-red-600">CHECK NOW</a>
+                    </div>
                 </div>
                 <div class="max-w-sm border rounded-lg border-gray-300">
-                    <!-- <img class="w-full" src=""> -->
+                    <img class="mt-5 max-w-sm mx-auto" src="img/image-brand-7.png">
+                    <h2 class="mt-5 text-center font-medium">Champion</h2>
+                    <p class="mt-2 text-center font-light">5% Cashback</p>
+                    <div class="ml-6 py-10 px-20">
+                        <a href="#" class="hover:text-red-500 underline text-red-600">CHECK NOW</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -179,7 +225,7 @@
 
     <section class="mt-20 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-35 lg:px-8 xl:mt-28">
         <div class="container mx-auto">
-            <h1 class="mt-16 text-base text-gray-800 font-bold sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-4 md:text-xl lg:mx-0">Discount On Paypal</h1>
+            <h1 style="font-family: Playfair-Display;" class="mt-16 text-base md:text-2xl text-gray-800 font-bold sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-4 md:text-xl lg:mx-0">Discount On Paypal</h1>
             <p class="text-gray-600 sm:max-w-xl md:text-l">
                 Discount up to 25%. Grab it now!
             </p>
@@ -202,7 +248,7 @@
 
     <section class="mt-20 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-35 lg:px-8 xl:mt-28">
         <div class="container mx-auto">
-            <h1 class="mt-16 text-base text-gray-800 font-bold sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-4 md:text-xl lg:mx-0">Hot Coupons</h1>
+            <h1 style="font-family: Playfair-Display;" class="mt-16 text-base md:text-2xl text-gray-800 font-bold sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-4 md:text-xl lg:mx-0">Hot Coupons</h1>
             <p class="text-gray-600 sm:max-w-xl md:text-l">
                 Just enter your code, and enjoy
             </p>
@@ -225,7 +271,7 @@
 
     <section class="mt-20 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-35 lg:px-8 xl:mt-28">
         <div class="container mx-auto">
-            <h1 class="mt-16 text-base text-gray-800 font-bold sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-4 md:text-xl lg:mx-0">Get extra cashback along with</h1>
+            <h1 style="font-family: Playfair-Display;" class="mt-16 text-base md:text-2xl text-gray-800 font-bold sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-4 md:text-xl lg:mx-0">Get extra cashback along with</h1>
             <p class="text-gray-600 sm:max-w-xl md:text-l">
                 Great offers, Deal and Discounts
             </p>
@@ -237,7 +283,7 @@
 
     <section class="mt-20 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-35 lg:px-8 xl:mt-28">
         <div class="container mx-auto">
-            <h1 class="mt-16 text-base text-gray-800 font-bold sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-4 md:text-xl lg:mx-0">Feature Store</h1>
+            <h1 style="font-family: Playfair-Display;" class="mt-16 text-base md:text-2xl text-gray-800 font-bold sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-4 md:text-xl lg:mx-0">Feature Store</h1>
             <p class="text-gray-600 sm:max-w-xl md:text-l">
                 Get the featured store price
             </p>
