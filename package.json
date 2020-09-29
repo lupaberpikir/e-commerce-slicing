@@ -1,0 +1,24 @@
+{
+  "name": "slicing-discountkoala",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "tailwindcss": "^1.8.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build:css":"tailwindcss build src/style.css -o dist/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lupaberpikir/e-commerce-slicing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lupaberpikir/e-commerce-slicing/issues"
+  },
+  "homepage": "https://github.com/lupaberpikir/e-commerce-slicing#readme"
+}
